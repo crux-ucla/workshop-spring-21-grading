@@ -14,13 +14,13 @@ def grader(func_name, test_cases):
         else:
             print("Test failed")
 
-if __name__ == "__main__":
-    main()
-
 def main():
     if len(sys.argv) != 2:
         print("Grader requires function name and testcase file")
         sys.exit(1)
     
     grader(argv[0], argv[1])
+    
+if __name__ == "__main__":
+    main()
     
