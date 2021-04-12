@@ -22,5 +22,5 @@ def main():
         print("Grader requires function name and testcase file")
         sys.exit(1)
     
-    grader(argv[0]), argv[1])
+    grader(argv[0], argv[1])
     
