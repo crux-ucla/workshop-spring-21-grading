@@ -10,5 +10,5 @@ def grader(func_name, test_cases):
 
         if (func_name(input) == output):
             print("Test passed")
-        else
+        else:
             print("Test failed")
